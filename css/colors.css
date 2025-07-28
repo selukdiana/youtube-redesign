@@ -1,0 +1,19 @@
+:root {
+  --color-text: rgba(137, 137, 137, 1);
+  --color-bg: rgb(255, 255, 255);
+  --color-primary: rgba(25, 32, 44, 1);
+  --color-secondary: rgba(194, 194, 194, 1);
+  --color-accent: rgba(255, 0, 0, 1);
+  --color-burger: rgba(31, 32, 34, 1);
+  --color-search: rgba(235, 235, 235, 0.3);
+  --color-search-input: rgba(48, 56, 76, 0.4);
+  --color-icons: rgba(0, 0, 0, 0.24);
+}
+
+.darkstyle {
+  --color-text: #ffffff;
+  --color-bg: #17171e;
+  --color-primary: #ffffff;
+  --color-secondary: #ffffff;
+  --color-burger: #ffffff;
+}
