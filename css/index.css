@@ -2,6 +2,8 @@
 @import url("colors.css");
 @import url("header.css");
 @import url("sidebar.css");
+@import url("slider.css");
+@import url("home-page.css");
 
 * {
   margin: 0;
@@ -9,7 +11,8 @@
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
-  color: var(--color-text);
+  outline: none;
+  border: none;
   transition: all 0.5s;
   font-family: "Mulish", sans-serif;
 }
@@ -18,17 +21,23 @@ html {
   background-color: var(--color-bg);
 }
 
-.container {
+/* .container {
   padding: 0 15px;
   margin: auto;
   width: auto;
-}
+} */
 
 .content {
   display: flex;
   position: fixed;
   height: calc(100vh - 84px);
   top: 84px;
+  width: 100vw;
+}
+
+main {
+  flex-grow: 1;
+  padding-left: 5px;
 }
 
 .title-first {
@@ -44,4 +53,20 @@ html {
 
 .title-third {
   font-size: 16px;
+}
+
+.hidden {
+  display: none;
+}
+
+.img__container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img__container img {
+  width: 100%;
+  height: auto;
 }

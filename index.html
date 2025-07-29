@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
     <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
+    <script defer src="./js/script.js"></script>
     <title>YouTube</title>
   </head>
   <body>
@@ -36,7 +37,7 @@
               notifications
             </span>
           </div>
-          <div class="profile__avatar">
+          <div class="profile__img img__container">
             <img src="./imgs/avatar.png" alt="avatar" class="avatar__img" />
           </div>
         </div>
@@ -142,7 +143,7 @@
           <h3 class="title-second">Subscriptions</h3>
           <li class="sidebar__item">
             <a href="#"
-              ><span class="profile__avatar profile__avatar-subscriptions">
+              ><span class="sidebar__img img__container">
                 <img
                   src="./imgs/gussie.png"
                   alt="avatar"
@@ -153,7 +154,7 @@
           </li>
           <li class="sidebar__item">
             <a href="#"
-              ><span class="profile__avatar profile__avatar-subscriptions">
+              ><span class="sidebar__img img__container">
                 <img
                   src="./imgs/nora.png"
                   alt="avatar"
@@ -164,7 +165,7 @@
           </li>
           <li class="sidebar__item">
             <a href="#"
-              ><span class="profile__avatar profile__avatar-subscriptions">
+              ><span class="sidebar__img img__container">
                 <img
                   src="./imgs/belle.png"
                   alt="avatar"
@@ -175,7 +176,7 @@
           </li>
           <li class="sidebar__item">
             <a href="#"
-              ><span class="profile__avatar profile__avatar-subscriptions">
+              ><span class="sidebar__img img__container">
                 <img
                   src="./imgs/eunice.png"
                   alt="avatar"
@@ -186,7 +187,7 @@
           </li>
           <li class="sidebar__item">
             <a href="#"
-              ><span class="profile__avatar profile__avatar-subscriptions">
+              ><span class="sidebar__img img__container">
                 <img
                   src="./imgs/emma.png"
                   alt="avatar"
@@ -197,7 +198,7 @@
           </li>
           <li class="sidebar__item">
             <a href="#"
-              ><span class="profile__avatar profile__avatar-subscriptions">
+              ><span class="sidebar__img img__container">
                 <img src="./imgs/leah.png" alt="avatar" class="avatar__img" />
               </span>
               Leah Berry</a
@@ -216,8 +217,84 @@
           </li>
         </ul>
       </div>
-      <main class="home-page">
-        <div class="container"></div>
+      <main>
+        <div class="home-page">
+          <div class="slider">
+            <div class="slider__nav">
+              <button class="slider__btn slider__btn-left">
+                <span
+                  class="iconify-inline"
+                  data-icon="mdi:keyboard-arrow-left"
+                ></span>
+              </button>
+              <button class="slider__btn slider__btn-left">
+                <span
+                  class="iconify-inline"
+                  data-icon="mdi:keyboard-arrow-right"
+                ></span>
+              </button>
+            </div>
+            <div class="slider__container">
+              <div class="slider__item">
+                <div class="img__container section__img">
+                  <img src="./imgs/1.png" alt="slider img" />
+                </div>
+                <h4 class="slider-item__title title-third">
+                  A Brief History Of Creation
+                </h4>
+                <div class="slider-item__description">80k views</div>
+              </div>
+              <div class="slider__item">
+                <div class="img__container section__img">
+                  <img src="./imgs/2.png" alt="slider img" />
+                </div>
+                <h4 class="slider-item__title title-third">
+                  A Brief History Of Creation
+                </h4>
+                <div class="slider-item__description">80k views</div>
+              </div>
+              <div class="slider__item">
+                <div class="img__container section__img">
+                  <img src="./imgs/3.png" alt="slider img" />
+                </div>
+                <h4 class="slider-item__title title-third">
+                  A Brief History Of Creation
+                </h4>
+                <div class="slider-item__description">80k views</div>
+              </div>
+              <div class="slider__item">
+                <div class="img__container section__img">
+                  <img src="./imgs/4.png" alt="slider img" />
+                </div>
+                <h4 class="slider-item__title title-third">
+                  A Brief History Of Creation
+                </h4>
+                <div class="slider-item__description">80k views</div>
+              </div>
+              <div class="slider__item">
+                <div class="img__container section__img">
+                  <img src="./imgs/5.png" alt="slider img" />
+                </div>
+                <h4 class="slider-item__title title-third">
+                  A Brief History Of Creation
+                </h4>
+                <div class="slider-item__description">80k views</div>
+              </div>
+              <div class="slider__item">
+                <div class="img__container section__img">
+                  <img src="./imgs/6.png" alt="slider img" />
+                </div>
+                <h4 class="slider-item__title title-third">
+                  A Brief History Of Creation
+                </h4>
+                <div class="slider-item__description">80k views</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-page">
+          <div class="container"></div>
+        </div>
       </main>
     </div>
   </body>
