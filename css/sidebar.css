@@ -1,0 +1,58 @@
+.sidebar {
+  width: 250px;
+  background-color: var(--color-bg);
+  padding: 30px 0 12px 31px;
+  overflow-y: auto;
+}
+
+.sidebar__menu {
+  margin-bottom: 60px;
+}
+
+.sidebar__categories {
+  margin-bottom: 58px;
+}
+
+.sidebar__subscriptions {
+  margin-bottom: 104px;
+}
+
+.sidebar__item {
+  margin-bottom: 29px;
+  color: var(--color-text);
+  font-size: 16px;
+}
+
+.sidebar__item:hover {
+  color: var(--color-accent);
+}
+
+.sidebar__item * {
+  color: inherit;
+  font-size: inherit;
+  transition: none;
+}
+/* ???? */
+
+.sidebar__item a {
+  display: flex;
+  gap: 13px;
+  align-items: center;
+}
+
+.sidebar__item .iconify-inline {
+  font-size: 20px;
+}
+
+.sidebar__item .profile__avatar-subscriptions {
+  width: 26px;
+  height: 26px;
+}
+
+.sidebar__subscriptions .sidebar__item {
+  margin-bottom: 23px;
+}
+
+.sidebar__subscriptions .sidebar__item a {
+  gap: 10px;
+}

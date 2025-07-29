@@ -1,6 +1,7 @@
 @import url("cdn.css");
 @import url("colors.css");
 @import url("header.css");
+@import url("sidebar.css");
 
 * {
   margin: 0;
@@ -21,4 +22,26 @@ html {
   padding: 0 15px;
   margin: auto;
   width: auto;
+}
+
+.content {
+  display: flex;
+  position: fixed;
+  height: calc(100vh - 84px);
+  top: 84px;
+}
+
+.title-first {
+  font-size: 26px;
+  color: var(--color-title);
+}
+
+.title-second {
+  font-size: 18px;
+  color: var(--color-title);
+  margin-bottom: 30px;
+}
+
+.title-third {
+  font-size: 16px;
 }
