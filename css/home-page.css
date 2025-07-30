@@ -3,11 +3,13 @@
   padding-bottom: 14px;
 }
 
-.section-user .slider__item {
+.section-user .slider__item,
+.section-chanel .slider__item {
   width: 250px;
 }
 
-.section-user .section-content__img {
+.section-user .section-content__img,
+.section-chanel .section-content__img {
   height: 150px;
 }
 
