@@ -4,614 +4,404 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/home-page.css" />
     <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
     <script defer src="./js/script.js"></script>
     <script defer type="module" src="./js/slider.js"></script>
     <title>YouTube</title>
   </head>
   <body>
-    <header class="header">
-      <div class="header__logo">
-        <div class="burger">
-          <div class="burger__line"></div>
-          <div class="burger__line"></div>
-          <div class="burger__line"></div>
-        </div>
-        <img src="./imgs/logo-black.png" alt="logo" height="25px" />
-      </div>
-      <div class="header__main">
-        <div class="header__search">
-          <input type="text" class="search__input" placeholder="Search" />
-          <button class="search__btn">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-        </div>
-        <div class="header__profile">
-          <div class="profile__menu">
-            <span class="material-symbols-outlined profile__menu-icon">
-              videocam
-            </span>
-            <span class="material-symbols-outlined profile__menu-icon">
-              apps
-            </span>
-            <span class="material-symbols-outlined profile__menu-icon">
-              notifications
-            </span>
-          </div>
-          <div class="profile__img img__container">
-            <img src="./imgs/avatar.png" alt="avatar" class="avatar__img" />
-          </div>
-        </div>
-      </div>
-    </header>
+    <header class="header"></header>
     <div class="content">
-      <div class="sidebar">
-        <ul class="sidebar__menu sidebar__items">
-          <li class="sidebar__item">
-            <a href="#"
-              ><span
-                class="iconify-inline"
-                data-icon="meteor-icons:home"
-              ></span>
-              Home</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span class="iconify-inline" data-icon="meteor-icons:fire"></span
-              >Trending</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span
-                class="iconify-inline"
-                data-icon="material-symbols:subscriptions-outline"
-              ></span
-              >Subscriptions</a
-            >
-          </li>
-        </ul>
-        <ul class="sidebar__categories sidebar__items">
-          <li class="sidebar__item">
-            <a href="#"
-              ><span
-                class="iconify-inline"
-                data-icon="meteor-icons:folder"
-              ></span
-              >Library</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span
-                class="iconify-inline"
-                data-icon="fluent:script-16-regular"
-              ></span
-              >History</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span
-                class="iconify-inline"
-                data-icon="fluent:clock-alarm-16-regular"
-              ></span
-              >Watch later</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span class="iconify-inline" data-icon="meteor-icons:star"></span
-              >Favourites</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span
-                class="iconify-inline"
-                data-icon="meteor-icons:heart"
-              ></span
-              >Liked videos</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span class="iconify-inline" data-icon="uil:music"></span
-              >Music</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span
-                class="iconify-inline"
-                data-icon="ion:game-controller-outline"
-              ></span
-              >Games</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span
-                class="iconify-inline"
-                data-icon="mdi:keyboard-arrow-down"
-              ></span
-              >Show more</a
-            >
-          </li>
-        </ul>
-        <ul class="sidebar__subscriptions sidebar__items">
-          <h3 class="title-second">Subscriptions</h3>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span class="sidebar__img img__container">
-                <img
-                  src="./imgs/gussie.png"
-                  alt="avatar"
-                  class="avatar__img"
-                /> </span
-              >Gussie Singleton</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span class="sidebar__img img__container">
-                <img
-                  src="./imgs/nora.png"
-                  alt="avatar"
-                  class="avatar__img"
-                /> </span
-              >Nora Francis</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span class="sidebar__img img__container">
-                <img
-                  src="./imgs/belle.png"
-                  alt="avatar"
-                  class="avatar__img"
-                /> </span
-              >Belle Briggs</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span class="sidebar__img img__container">
-                <img
-                  src="./imgs/eunice.png"
-                  alt="avatar"
-                  class="avatar__img"
-                /> </span
-              >Eunice Cortez</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span class="sidebar__img img__container">
-                <img
-                  src="./imgs/emma.png"
-                  alt="avatar"
-                  class="avatar__img"
-                /> </span
-              >Emma Hanson</a
-            >
-          </li>
-          <li class="sidebar__item">
-            <a href="#"
-              ><span class="sidebar__img img__container">
-                <img src="./imgs/leah.png" alt="avatar" class="avatar__img" />
-              </span>
-              Leah Berry</a
-            >
-          </li>
-        </ul>
-        <ul class="sidebar__items">
-          <li class="sidebar__item">
-            <a href="#"
-              ><span
-                class="iconify-inline"
-                data-icon="mdi:settings-outline"
-              ></span
-              >Settings</a
-            >
-          </li>
-        </ul>
-      </div>
-      <main>
-        <div class="home-page">
-          <section class="section section-user">
-            <div class="section__title">
-              <div class="img__container section-title__img">
-                <img src="./imgs/gussie.png" alt="avatar" />
-              </div>
-              <p>Dollie Blair</p>
+      <div class="sidebar"></div>
+      <!-- <main class="home-page"> -->
+      <main class="home-page">
+        <section class="section section-user">
+          <div class="section__title">
+            <div class="img__container section-title__img">
+              <img src="./imgs/gussie.png" alt="avatar" />
             </div>
-            <div class="section__content">
-              <div class="slider">
-                <div class="slider__nav">
-                  <button class="slider__btn slider__btn-left">
-                    <span
-                      class="iconify-inline"
-                      data-icon="mdi:keyboard-arrow-left"
-                    ></span>
-                  </button>
-                  <button class="slider__btn slider__btn-right">
-                    <span
-                      class="iconify-inline"
-                      data-icon="mdi:keyboard-arrow-right"
-                    ></span>
-                  </button>
+            <p class="title-first">Dollie Blair</p>
+          </div>
+          <div class="section__content">
+            <div class="slider">
+              <div class="slider__nav">
+                <button class="slider__btn slider__btn-left">
+                  <span
+                    class="iconify-inline"
+                    data-icon="mdi:keyboard-arrow-left"
+                  ></span>
+                </button>
+                <button class="slider__btn slider__btn-right">
+                  <span
+                    class="iconify-inline"
+                    data-icon="mdi:keyboard-arrow-right"
+                  ></span>
+                </button>
+              </div>
+              <div class="slider__container">
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/1.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
+                  </div>
+                  <h4 class="section-content__title title-third">
+                    A Brief History Of Creation
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">80k</span>
+                      views &middot;
+                      <span class="info__time">3 days</span> ago
+                    </div>
+                    <div class="description__author">Dollie Blair</div>
+                  </div>
                 </div>
-                <div class="slider__container">
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/1.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
-                    </div>
-                    <h4 class="section-content__title title-third">
-                      A Brief History Of Creation
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">80k</span>
-                        views &middot;
-                        <span class="info__time">3 days</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/2.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/2.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
+                  <h4 class="section-content__title title-third">
+                    Selecting The Right Hotel
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">123k</span>
+                      views &middot;
+                      <span class="info__time">1 months</span> ago
                     </div>
-                    <h4 class="section-content__title title-third">
-                      Selecting The Right Hotel
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">123k</span>
-                        views &middot;
-                        <span class="info__time">1 months</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                    <div class="description__author">Dollie Blair</div>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/3.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
-                    </div>
-                    <h4 class="section-content__title title-third">
-                      Asteroids
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">43k</span>
-                        views &middot;
-                        <span class="info__time">12 days</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/3.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/4.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
+                  <h4 class="section-content__title title-third">Asteroids</h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">43k</span>
+                      views &middot;
+                      <span class="info__time">12 days</span> ago
                     </div>
-                    <h4 class="section-content__title title-third">
-                      Telescopes 101
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">11k</span>
-                        views &middot;
-                        <span class="info__time">6 months</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                    <div class="description__author">Dollie Blair</div>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/5.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
-                    </div>
-                    <h4 class="section-content__title title-third">
-                      Medical Care Is Just
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">18k</span>
-                        views &middot;
-                        <span class="info__time">2 days</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/4.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/6.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
+                  <h4 class="section-content__title title-third">
+                    Telescopes 101
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">11k</span>
+                      views &middot;
+                      <span class="info__time">6 months</span> ago
                     </div>
-                    <h4 class="section-content__title title-third">
-                      Moon Gazing
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">67k</span>
-                        views &middot;
-                        <span class="info__time">4 months</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
+                    <div class="description__author">Dollie Blair</div>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/5.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
+                  </div>
+                  <h4 class="section-content__title title-third">
+                    Medical Care Is Just
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">18k</span>
+                      views &middot;
+                      <span class="info__time">2 days</span> ago
                     </div>
+                    <div class="description__author">Dollie Blair</div>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/6.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
+                  </div>
+                  <h4 class="section-content__title title-third">
+                    Moon Gazing
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">67k</span>
+                      views &middot;
+                      <span class="info__time">4 months</span> ago
+                    </div>
+                    <div class="description__author">Dollie Blair</div>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-          <section class="section section-recommended">
-            <div class="section__title">
-              <p>Recommended</p>
-            </div>
-            <div class="section__content">
-              <div class="slider">
-                <div class="slider__nav">
-                  <button class="slider__btn slider__btn-left">
-                    <span
-                      class="iconify-inline"
-                      data-icon="mdi:keyboard-arrow-left"
-                    ></span>
-                  </button>
-                  <button class="slider__btn slider__btn-right">
-                    <span
-                      class="iconify-inline"
-                      data-icon="mdi:keyboard-arrow-right"
-                    ></span>
-                  </button>
+          </div>
+        </section>
+        <section class="section section-recommended">
+          <div class="section__title">
+            <p class="title-first">Recommended</p>
+          </div>
+          <div class="section__content">
+            <div class="slider">
+              <div class="slider__nav">
+                <button class="slider__btn slider__btn-left">
+                  <span
+                    class="iconify-inline"
+                    data-icon="mdi:keyboard-arrow-left"
+                  ></span>
+                </button>
+                <button class="slider__btn slider__btn-right">
+                  <span
+                    class="iconify-inline"
+                    data-icon="mdi:keyboard-arrow-right"
+                  ></span>
+                </button>
+              </div>
+              <div class="slider__container">
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/7.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
+                  </div>
+                  <h4 class="section-content__title title-third">
+                    A Brief History Of Creation
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">80k</span>
+                      views &middot;
+                      <span class="info__time">3 days</span> ago
+                    </div>
+                    <div class="description__author">Dollie Blair</div>
+                  </div>
                 </div>
-                <div class="slider__container">
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/7.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
-                    </div>
-                    <h4 class="section-content__title title-third">
-                      A Brief History Of Creation
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">80k</span>
-                        views &middot;
-                        <span class="info__time">3 days</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/8.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/8.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
+                  <h4 class="section-content__title title-third">
+                    Selecting The Right Hotel
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">123k</span>
+                      views &middot;
+                      <span class="info__time">1 months</span> ago
                     </div>
-                    <h4 class="section-content__title title-third">
-                      Selecting The Right Hotel
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">123k</span>
-                        views &middot;
-                        <span class="info__time">1 months</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                    <div class="description__author">Dollie Blair</div>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/9.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
-                    </div>
-                    <h4 class="section-content__title title-third">
-                      Asteroids
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">43k</span>
-                        views &middot;
-                        <span class="info__time">12 days</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/9.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/4.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
+                  <h4 class="section-content__title title-third">Asteroids</h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">43k</span>
+                      views &middot;
+                      <span class="info__time">12 days</span> ago
                     </div>
-                    <h4 class="section-content__title title-third">
-                      Telescopes 101
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">11k</span>
-                        views &middot;
-                        <span class="info__time">6 months</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                    <div class="description__author">Dollie Blair</div>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/5.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
-                    </div>
-                    <h4 class="section-content__title title-third">
-                      Medical Care Is Just
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">18k</span>
-                        views &middot;
-                        <span class="info__time">2 days</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/4.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/6.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
+                  <h4 class="section-content__title title-third">
+                    Telescopes 101
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">11k</span>
+                      views &middot;
+                      <span class="info__time">6 months</span> ago
                     </div>
-                    <h4 class="section-content__title title-third">
-                      Moon Gazing
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">67k</span>
-                        views &middot;
-                        <span class="info__time">4 months</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
+                    <div class="description__author">Dollie Blair</div>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/5.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
+                  </div>
+                  <h4 class="section-content__title title-third">
+                    Medical Care Is Just
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">18k</span>
+                      views &middot;
+                      <span class="info__time">2 days</span> ago
                     </div>
+                    <div class="description__author">Dollie Blair</div>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/6.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
+                  </div>
+                  <h4 class="section-content__title title-third">
+                    Moon Gazing
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">67k</span>
+                      views &middot;
+                      <span class="info__time">4 months</span> ago
+                    </div>
+                    <div class="description__author">Dollie Blair</div>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-          <section class="section section-chanel">
-            <div class="section__title">
-              <div class="img__container section-title__img">
-                <img src="./imgs/food-drink.png" alt="avatar" />
-              </div>
-              <p>Food & Drink <span>Recommended channel for you</span></p>
+          </div>
+        </section>
+        <section class="section section-chanel">
+          <div class="section__title">
+            <div class="img__container section-title__img">
+              <img src="./imgs/food-drink.png" alt="avatar" />
             </div>
-            <div class="section__content">
-              <div class="slider">
-                <div class="slider__nav">
-                  <button class="slider__btn slider__btn-left">
-                    <span
-                      class="iconify-inline"
-                      data-icon="mdi:keyboard-arrow-left"
-                    ></span>
-                  </button>
-                  <button class="slider__btn slider__btn-right">
-                    <span
-                      class="iconify-inline"
-                      data-icon="mdi:keyboard-arrow-right"
-                    ></span>
-                  </button>
+            <p>Food & Drink <span>Recommended channel for you</span></p>
+          </div>
+          <div class="section__content">
+            <div class="slider">
+              <div class="slider__nav">
+                <button class="slider__btn slider__btn-left">
+                  <span
+                    class="iconify-inline"
+                    data-icon="mdi:keyboard-arrow-left"
+                  ></span>
+                </button>
+                <button class="slider__btn slider__btn-right">
+                  <span
+                    class="iconify-inline"
+                    data-icon="mdi:keyboard-arrow-right"
+                  ></span>
+                </button>
+              </div>
+              <div class="slider__container">
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/10.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
+                  </div>
+                  <h4 class="section-content__title title-third">
+                    Astronomy Or Astrology
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">240k</span>
+                      views &middot;
+                      <span class="info__time">4 months</span> ago
+                    </div>
+                    <div class="description__author">Dollie Blair</div>
+                  </div>
                 </div>
-                <div class="slider__container">
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/10.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
-                    </div>
-                    <h4 class="section-content__title title-third">
-                      Astronomy Or Astrology
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">240k</span>
-                        views &middot;
-                        <span class="info__time">4 months</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/11.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/11.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
+                  <h4 class="section-content__title title-third">
+                    Advertising Outdoors
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">13k</span>
+                      views &middot;
+                      <span class="info__time">15 days</span> ago
                     </div>
-                    <h4 class="section-content__title title-third">
-                      Advertising Outdoors
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">13k</span>
-                        views &middot;
-                        <span class="info__time">15 days</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                    <div class="description__author">Dollie Blair</div>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/12.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
-                    </div>
-                    <h4 class="section-content__title title-third">
-                      Radio Astronomy
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">1k</span>
-                        views &middot;
-                        <span class="info__time">11 months</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/12.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/13.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
+                  <h4 class="section-content__title title-third">
+                    Radio Astronomy
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">1k</span>
+                      views &middot;
+                      <span class="info__time">11 months</span> ago
                     </div>
-                    <h4 class="section-content__title title-third">
-                      A Good Autoresponder
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">45k</span>
-                        views &middot;
-                        <span class="info__time">2 months</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                    <div class="description__author">Dollie Blair</div>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/14.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
-                    </div>
-                    <h4 class="section-content__title title-third">
-                      Baby Monitor Technology
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">86k</span>
-                        views &middot;
-                        <span class="info__time">7 days</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
-                    </div>
+                </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/13.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
                   </div>
-                  <div class="slider__item">
-                    <div class="img__container section-content__img">
-                      <img src="./imgs/15.png" alt="slider img" />
-                      <span class="img__duration">4:15</span>
+                  <h4 class="section-content__title title-third">
+                    A Good Autoresponder
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">45k</span>
+                      views &middot;
+                      <span class="info__time">2 months</span> ago
                     </div>
-                    <h4 class="section-content__title title-third">
-                      Asteroids
-                    </h4>
-                    <div class="section-content__description">
-                      <div class="description__info">
-                        <span class="info__views">123k</span>
-                        views &middot;
-                        <span class="info__time">4 months</span> ago
-                      </div>
-                      <div class="description__author">Dollie Blair</div>
+                    <div class="description__author">Dollie Blair</div>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/14.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
+                  </div>
+                  <h4 class="section-content__title title-third">
+                    Baby Monitor Technology
+                  </h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">86k</span>
+                      views &middot;
+                      <span class="info__time">7 days</span> ago
                     </div>
+                    <div class="description__author">Dollie Blair</div>
+                  </div>
+                </div>
+                <div class="slider__item">
+                  <div class="img__container section-content__img">
+                    <img src="./imgs/15.png" alt="slider img" />
+                    <span class="img__duration">4:15</span>
+                  </div>
+                  <h4 class="section-content__title title-third">Asteroids</h4>
+                  <div class="section-content__description title-fourth">
+                    <div class="description__info">
+                      <span class="info__views">123k</span>
+                      views &middot;
+                      <span class="info__time">4 months</span> ago
+                    </div>
+                    <div class="description__author">Dollie Blair</div>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-        </div>
-        <div class="user-page">
-          <div class="container"></div>
-        </div>
+          </div>
+        </section>
       </main>
+      <!-- <div class="user-page">
+          <div class="container"></div>
+        </div> -->
+      <!-- </main> -->
     </div>
   </body>
 </html>

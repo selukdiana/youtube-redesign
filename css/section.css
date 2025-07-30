@@ -4,11 +4,11 @@
   align-items: center;
   gap: 20px;
 }
-.section__title p {
+/* .section__title p {
   font-size: 26px;
   color: var(--color-primary);
   font-weight: 700;
-}
+} */
 
 .section__title span {
   font-size: 16px;
@@ -26,13 +26,12 @@
   color: var(--color-primary);
   max-width: 100%;
 }
+
 .section-content__description {
-  color: var(--color-secondary);
   display: flex;
   justify-content: space-between;
   max-width: 100%;
   flex-wrap: wrap;
-  font-size: 13px;
 }
 
 .section-content__img {
