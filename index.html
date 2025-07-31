@@ -18,7 +18,9 @@
           <div class="burger__line"></div>
           <div class="burger__line"></div>
         </div>
-        <img src="./imgs/logo-black.png" alt="logo" height="25px" />
+        <a href="channel.html">
+          <img src="./imgs/logo-black.png" alt="logo" height="25px" />
+        </a>
       </div>
       <div class="header__main">
         <div class="header__search">
@@ -32,15 +34,25 @@
         </div>
         <div class="header__profile">
           <div class="profile__menu">
-            <span class="material-symbols-outlined profile__menu-icon">
-              videocam
-            </span>
-            <span class="material-symbols-outlined profile__menu-icon">
-              apps
-            </span>
-            <span class="material-symbols-outlined profile__menu-icon">
-              notifications
-            </span>
+            <div class="profile__menu-icon">
+              <span
+                class="iconify-inline"
+                data-icon="material-symbols:videocam-outline-rounded"
+              ></span>
+            </div>
+            <div class="profile__menu-icon">
+              <span
+                class="iconify-inline"
+                data-icon="material-symbols:apps"
+              ></span>
+            </div>
+            <div class="profile__menu-icon notifications-icon">
+              <span
+                class="iconify-inline"
+                data-icon="flowbite:bell-outline"
+              ></span
+              ><span class="notifications-count">3</span>
+            </div>
           </div>
           <div class="profile__img img__container">
             <img src="./imgs/avatar.png" alt="avatar" class="avatar__img" />
@@ -52,7 +64,7 @@
       <aside class="sidebar">
         <ul class="sidebar__menu sidebar__items">
           <li class="sidebar__item">
-            <a href="channel.html"
+            <a href="#"
               ><span
                 class="iconify-inline"
                 data-icon="meteor-icons:home"
@@ -222,8 +234,6 @@
           </li>
         </ul>
       </aside>
-
-      <!-- <main class="home-page"> -->
       <main class="home-page">
         <section class="section section-user">
           <div class="section__title">
@@ -607,10 +617,6 @@
           </div>
         </section>
       </main>
-      <!-- <div class="user-page">
-          <div class="container"></div>
-        </div> -->
-      <!-- </main> -->
     </div>
   </body>
 </html>

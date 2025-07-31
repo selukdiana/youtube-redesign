@@ -79,7 +79,6 @@
 
 .main__content {
   display: flex;
-  gap: 204px;
   align-items: start;
   justify-content: space-between;
 }

@@ -4,16 +4,12 @@
   align-items: center;
   gap: 20px;
 }
-/* .section__title p {
-  font-size: 26px;
-  color: var(--color-primary);
-  font-weight: 700;
-} */
 
 .section__title span {
   font-size: 16px;
   color: var(--color-text);
   margin-left: 19px;
+  font-weight: 400;
 }
 
 .section-title__img {

@@ -18,7 +18,9 @@
           <div class="burger__line"></div>
           <div class="burger__line"></div>
         </div>
-        <img src="./imgs/logo-black.png" alt="logo" height="25px" />
+        <a href="index.html">
+          <img src="./imgs/logo-black.png" alt="logo" height="25px" />
+        </a>
       </div>
       <div class="header__main">
         <div class="header__search">
@@ -32,15 +34,25 @@
         </div>
         <div class="header__profile">
           <div class="profile__menu">
-            <span class="material-symbols-outlined profile__menu-icon">
-              videocam
-            </span>
-            <span class="material-symbols-outlined profile__menu-icon">
-              apps
-            </span>
-            <span class="material-symbols-outlined profile__menu-icon">
-              notifications
-            </span>
+            <div class="profile__menu-icon">
+              <span
+                class="iconify-inline"
+                data-icon="material-symbols:videocam-outline-rounded"
+              ></span>
+            </div>
+            <div class="profile__menu-icon">
+              <span
+                class="iconify-inline"
+                data-icon="material-symbols:apps"
+              ></span>
+            </div>
+            <div class="profile__menu-icon notifications-icon">
+              <span
+                class="iconify-inline"
+                data-icon="flowbite:bell-outline"
+              ></span
+              ><span class="notifications-count">3</span>
+            </div>
           </div>
           <div class="profile__img img__container">
             <img src="./imgs/avatar.png" alt="avatar" class="avatar__img" />
@@ -249,7 +261,7 @@
               <div class="info__subscription">
                 <span
                   class="iconify-inline subcription__bell"
-                  data-icon="line-md:bell-loop"
+                  data-icon="flowbite:bell-outline"
                 ></span>
                 <button class="subcription__btn">Subscribe 2.3m</button>
               </div>

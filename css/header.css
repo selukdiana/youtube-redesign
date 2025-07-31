@@ -14,7 +14,7 @@
 
 .header__logo {
   width: 250px;
-  padding: 0 59px 0 32px;
+  padding: 0 54px 0 32px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -103,9 +103,26 @@
 
 .profile__menu-icon {
   font-size: 25px;
-  color: var(--color-icons);
 }
 
+.notifications-icon {
+  position: relative;
+}
+
+.notifications-count {
+  position: absolute;
+  bottom: 14px;
+  left: 9px;
+  background-color: var(--color-accent);
+  color: var(--color-bg);
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 50%;
+  height: 18px;
+  width: 18px;
+  text-align: center;
+  align-content: center;
+}
 /* avatar */
 
 .profile__img {
