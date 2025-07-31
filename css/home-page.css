@@ -1,15 +1,15 @@
 .home-page {
-  padding-top: 50px;
+  padding-top: 30px;
   padding-bottom: 14px;
 }
 
 .section-user .slider__item,
-.section-chanel .slider__item {
+.section-channel .slider__item {
   width: 250px;
 }
 
 .section-user .section-content__img,
-.section-chanel .section-content__img {
+.section-channel .section-content__img {
   height: 150px;
 }
 

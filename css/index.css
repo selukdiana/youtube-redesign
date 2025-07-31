@@ -13,7 +13,7 @@
   text-decoration: none;
   outline: none;
   border: none;
-  transition: all 0.5s;
+  /* transition: all 0.5s; */
   font-family: "Mulish", sans-serif;
 }
 
@@ -21,11 +21,11 @@ html {
   background-color: var(--color-bg);
 }
 
-/* .container {
-  padding: 0 15px;
+.container {
+  padding-right: 70px;
   margin: auto;
   width: auto;
-} */
+}
 
 .content {
   display: flex;
@@ -100,4 +100,8 @@ main {
 
 .iconify-inline {
   color: var(--color-text);
+  cursor: pointer;
+}
+.iconify-inline:hover {
+  color: var(--color-accent);
 }
