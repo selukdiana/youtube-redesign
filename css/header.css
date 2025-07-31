@@ -86,10 +86,11 @@
 /* profile */
 
 .header__profile {
-  width: 260px;
+  /* width: 260px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 45px;
 }
 
 /* profile menu */
@@ -129,4 +130,50 @@
   border-radius: 50%;
   width: 40px;
   height: 40px;
+}
+
+@media screen and (max-width: 1440px) {
+  .profile__menu {
+    display: none;
+  }
+
+  .header__search {
+    max-width: 830px;
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  .search__input {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 12px 16px;
+    gap: 10px;
+    height: 54px;
+  }
+
+  .header__logo {
+    padding: 0;
+    width: 116px;
+  }
+
+  .header__main {
+    padding: 0;
+  }
+  .burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .search__input {
+    display: none;
+  }
+
+  .profile__img {
+    width: 30px;
+    height: 30px;
+  }
 }

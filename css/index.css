@@ -105,3 +105,24 @@ main {
 .iconify-inline:hover {
   color: var(--color-accent);
 }
+
+@media screen and (max-width: 768px) {
+  .content {
+    display: block;
+  }
+
+  .content main {
+    max-width: 100%;
+    padding-bottom: 61px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content main {
+    padding: 11px 16px 61px;
+  }
+
+  .content {
+    top: 54px;
+  }
+}

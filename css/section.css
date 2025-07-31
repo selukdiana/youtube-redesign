@@ -43,3 +43,14 @@
 .section .slider__container {
   gap: 40px;
 }
+
+@media screen and (max-width: 768px) {
+  .section__title {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section-content__img {
+    margin-bottom: 8px;
+  }
+}

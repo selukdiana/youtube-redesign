@@ -20,3 +20,14 @@
 .section-recommended .section-content__img {
   height: 250px;
 }
+@media screen and (max-width: 425px) {
+  .section-user .slider__item,
+  .section-channel .slider__item,
+  .section-recommended .slider__item {
+    width: 100%;
+  }
+
+  .section-recommended .section-content__img {
+    height: 150px;
+  }
+}

@@ -1,4 +1,4 @@
-.slider .slider__nav {
+.slider__nav {
   display: flex;
   gap: 10px;
   position: absolute;
@@ -48,4 +48,27 @@
 .slider__btn .iconify-inline {
   font-size: 20px;
   color: var(--color-bg);
+}
+
+@media screen and (max-width: 768px) {
+  .slider__nav {
+    position: static;
+    justify-content: end;
+    margin-bottom: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .slider__nav {
+    display: none;
+  }
+
+  .slider__container {
+    display: block;
+  }
+
+  .slider__item {
+    margin-bottom: 30px;
+  }
 }
