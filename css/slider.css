@@ -1,9 +1,15 @@
 .slider__nav {
   display: flex;
-  gap: 10px;
+  gap: 40px;
+  align-items: center;
   position: absolute;
   top: -58px;
   right: 149px;
+}
+
+.slider__nav .slider__btns {
+  display: flex;
+  gap: 10px;
 }
 
 .slider__container {
@@ -50,7 +56,13 @@
   color: var(--color-bg);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1440px) {
+  .slider__nav .subcription__btn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .slider__nav {
     position: static;
     justify-content: end;

@@ -48,6 +48,9 @@
   .section__title {
     display: none;
   }
+  .section:last-child {
+    margin-bottom: 0;
+  }
 }
 @media screen and (max-width: 425px) {
   .section-content__img {
