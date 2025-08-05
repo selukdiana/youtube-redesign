@@ -132,7 +132,7 @@
   max-width: 270px;
   flex-shrink: 0;
 }
-.description__info,
+.video__description .description__info,
 .recommended__title {
   font-size: 16px;
   line-height: 22px;
